@@ -331,9 +331,12 @@ frame2_buttonBack.place(x=30, y= 390)
 
 
 def run():
-    show_frame(frame17)
+    show_frame(frame1)
     window.mainloop()
 
 
 if __name__ == "__main__":
     run()
+
+# HyM -> 170 50 42
+# Notas -> 20,0,1,0
