@@ -14,6 +14,7 @@ def show_frame(frame):
     frame.tkraise()
 
 window = Tk()
+window.iconbitmap("./images/yinicon.ico")
 window.geometry("500x500")
 window.title("Trabajo Parcial")
 
@@ -330,7 +331,7 @@ frame2_buttonBack.place(x=30, y= 390)
 
 
 def run():
-    show_frame(frame2)
+    show_frame(frame17)
     window.mainloop()
 
 
